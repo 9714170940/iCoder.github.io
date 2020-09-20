@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar-dark .navbar-brand{
+    color: rgba(31, 224, 224, 0.911)!important;
+}
 .navbar-toggler{
     border: none!important;
 }
@@ -108,14 +111,14 @@
     }
     .carousel-caption p{
         margin-top: 15px!important;
-        font-size: 5px!important;
+        font-size: 11px!important;
         color: rgb(187, 187, 187);
     }
     .blogs h1{
         font-size: 2.3rem!important;
     }
     .blogs p{
-        font-size: 0.2rem!important;
+        font-size: 0.8rem!important;
     }
     .ronak{
         margin-top: 15px!important;
@@ -129,6 +132,22 @@
     .offer h1{
         padding: 10px!important;
         font-size: 1.2rem!important;
+    }
+    .ft h1{
+        line-height: 25px;
+        font-size: 1.6rem!important;
+        padding: 15px!important;
+        color: rgb(211, 211, 211)!important;
+    }
+    .ft small{
+        word-spacing: 3px!important;
+        letter-spacing: 1px!important;
+        font-size: 0.75rem!important;
+    }
+    .ft p{
+        color: rgb(187, 187, 187)!important;
+        font-size: 0.6rem!important;
+    }
 }
 @media(min-width:427px){
     .carousel-caption{
@@ -160,7 +179,23 @@
     }
     .offer h1{
         padding: 10px!important;
-        font-size: 0.7rem!important;
+        font-size: 0.9rem!important;
+    }
+    .ft h1{
+        line-height: 25px;
+        font-size: 1.9rem!important;
+        padding: 15px!important;
+        color: rgb(211, 211, 211)!important;
+    }
+    .ft small{
+        word-spacing: 5px!important;
+        letter-spacing: 1px!important;
+        font-size: 1rem!important;
+    }
+    .ft p{
+        color: rgb(187, 187, 187)!important;
+        font-size: 0.8rem!important;
+    }
 }
 @media only screen and (min-width: 768px){
     .carousel-caption{
